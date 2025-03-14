@@ -1,0 +1,223 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.campogeral {
+    background-color: green;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.campo {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.esquerda {
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+
+.direita {
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+
+.caixad {
+    border-style: solid;
+    border-color: white;
+    border-left: none;
+}
+
+.caixae {
+    border-style: solid;
+    border-color: white;
+}
+
+.caixa2 {
+    border-style: solid;
+    border-color: white;
+}
+
+.traveesquerda {
+    width: 30%;
+    height: 50%;
+    margin-top: 100px;
+    border-left: none;
+}
+
+.travedireita {
+    width: 30%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: auto;
+    border-right: none;
+    position: relative;
+    display: flex;
+}
+
+.centro {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centro p {
+    font-size: 100px;
+    margin-bottom: 155px;
+    color: white;
+}
+
+.mine-traveesquerda {
+    width: 45%;
+    height: 50%;
+    margin-top: 50px;
+    border-style: solid;
+    border-left: none;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mine-travedireita {
+    width: 45%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    border-style: solid;
+    border-right: none;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro-traved {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 48%;
+    margin-left: 200px;
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    clip-path: circle(71% at 0%);
+}
+
+.centro-travee {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 48%;
+    margin-left: 70px;
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    transform: rotate(180deg);
+    clip-path: circle(71% at 0%);
+}
+
+.mine-travedireita p {
+    font-size: 100px;
+    margin-top: 39px;
+    margin-right: 106px;
+    color: white;
+}
+
+.mine-traveesquerda p {
+    font-size: 100px;
+    margin-top: 39px;
+    margin-left: 106px;
+    color: white;
+}
+
+.escanteio-top {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-right: 666px;
+    margin-bottom: 372px;
+    border-style: solid;
+    border-color: white;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+    border-top: none;
+}
+
+.escanteio-left {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-right: 666px;
+    margin-top: 372px;
+    border-style: solid;
+    border-color: white;
+    border-top-right-radius: 100px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.escanteio-bottom {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 666px;
+    margin-bottom: 372px;
+    border-style: solid;
+    border-color: white;
+    border-bottom-left-radius: 100px;
+    border-right: none;
+    border-top: none;
+}
+
+.escanteio-right {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 666px;
+    margin-top: 372px;
+    border-style: solid;
+    border-color: white;
+    border-top-left-radius: 100px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.externatrave-esquerda {
+    position: absolute;
+    width: 30px;
+    height: 70px;
+    margin-right: 80px;
+    border-style: solid;
+    border-color: white;
+    border-right: none;
+}
+
+.externatrave-direita {
+    position: absolute;
+    width: 30px;
+    height: 70px;
+    margin-left: 80px;
+    border-style: solid;
+    border-color: white;
+    border-left: none;
+}
